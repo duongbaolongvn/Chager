@@ -16,6 +16,7 @@
 		D03D8BF7275612F400760097 /* ChagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D8BF6275612F400760097 /* ChagerTests.swift */; };
 		D03D8C01275612F400760097 /* ChagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D8C00275612F400760097 /* ChagerUITests.swift */; };
 		D03D8C03275612F400760097 /* ChagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D8C02275612F400760097 /* ChagerUITestsLaunchTests.swift */; };
+		D03D8C122756134000760097 /* CircleDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D8C112756134000760097 /* CircleDrag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D03D8BFC275612F400760097 /* ChagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03D8C00275612F400760097 /* ChagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChagerUITests.swift; sourceTree = "<group>"; };
 		D03D8C02275612F400760097 /* ChagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D03D8C112756134000760097 /* CircleDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDrag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		D03D8BDE275612F000760097 /* Chager */ = {
 			isa = PBXGroup;
 			children = (
+				D03D8C102756130A00760097 /* CustomView */,
+				D03D8C0F275612FE00760097 /* ViewController */,
 				D03D8BDF275612F000760097 /* AppDelegate.swift */,
 				D03D8BE1275612F000760097 /* SceneDelegate.swift */,
-				D03D8BE3275612F000760097 /* ViewController.swift */,
 				D03D8BE5275612F000760097 /* Main.storyboard */,
 				D03D8BE8275612F300760097 /* Assets.xcassets */,
 				D03D8BEA275612F300760097 /* LaunchScreen.storyboard */,
@@ -125,6 +128,22 @@
 				D03D8C02275612F400760097 /* ChagerUITestsLaunchTests.swift */,
 			);
 			path = ChagerUITests;
+			sourceTree = "<group>";
+		};
+		D03D8C0F275612FE00760097 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D03D8BE3275612F000760097 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D03D8C102756130A00760097 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D03D8C112756134000760097 /* CircleDrag.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 				D03D8BE4275612F000760097 /* ViewController.swift in Sources */,
 				D03D8BE0275612F000760097 /* AppDelegate.swift in Sources */,
 				D03D8BE2275612F000760097 /* SceneDelegate.swift in Sources */,
+				D03D8C122756134000760097 /* CircleDrag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
